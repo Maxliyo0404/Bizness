@@ -157,8 +157,8 @@ header .header-container .header-list .header-btn:hover {
   background: none;
   border: 1px solid #3A68B8;
 }
-.section_one .section_one-hero .one-left .one-btns .one-btns {
-  padding: 8px 30px;
+.section_one .section_one-hero .one-left .one-btns .one-btnss {
+  padding: 8px 22px;
   font-size: 18px;
   border: none;
   background: none;
@@ -174,11 +174,12 @@ header .header-container .header-list .header-btn:hover {
   font-size: 15px;
   line-height: 20px;
 }
-.section_one .section_one-hero .one-left .one-btns .one-btns:hover {
+.section_one .section_one-hero .one-left .one-btns .one-btnss:hover {
   background: none;
   border: 1px solid #3A68B8;
+  background: #2563EB;
 }
-.section_one .section_one-hero .one-left .one-btns .one-btns .fade {
+.section_one .section_one-hero .one-left .one-btns .one-btnss .fade {
   width: 36px;
   height: 36px;
   border-radius: 50%;
