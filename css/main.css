@@ -554,4 +554,13 @@ header .header-container .header-list .header-btn:hover {
 }
 .section_four .section_four-project .four-right img {
   width: 100%;
+}
+
+@media (max-width: 960px) {
+  .section_four .section_four-project {
+    gap: 20px;
+  }
+  .section_four .section_four-project .four-left {
+    padding-top: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

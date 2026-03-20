@@ -51,8 +51,15 @@
 }
 }
 
-@media(max-width:1160px){
-
+@media(max-width:960px){
+  .section_four{
+    .section_four-project{
+        gap: 20px;
+        .four-left{
+            padding-top: 0;
+        }
+    }
+  }
 }
 @media(max-width:1160px){
 
