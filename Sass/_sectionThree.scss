@@ -85,12 +85,19 @@
     .section_three-info{
         flex-direction: column;
         align-items: center;
+        padding: 20px 0;
+        .three-left{
+            max-width: 60%;
+            transform: translate(0, -20px);
+
+        }
         .three-right{
             max-width: 100%;
             text-align: center;
+            transform: translate(0, -20px);
             h2{
                     width: 100%;
-                    font-size: 29px;
+                    font-size: 28px;
                     line-height: 30px;
                     margin-bottom: 20px;
                 }

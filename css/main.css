@@ -483,14 +483,20 @@ header .header-container .header-list .header-btn:hover {
   .section_three .section_three-info {
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
+  }
+  .section_three .section_three-info .three-left {
+    max-width: 60%;
+    transform: translate(0, -20px);
   }
   .section_three .section_three-info .three-right {
     max-width: 100%;
     text-align: center;
+    transform: translate(0, -20px);
   }
   .section_three .section_three-info .three-right h2 {
     width: 100%;
-    font-size: 29px;
+    font-size: 28px;
     line-height: 30px;
     margin-bottom: 20px;
   }
