@@ -453,4 +453,10 @@ header .header-container .header-list .header-btn:hover {
 .section_three .section_three-info .three-right .three-btn:hover {
   background: none;
   border: 1px solid #3A68B8;
+}
+
+@media (max-width: 960px) {
+  .section_three .section_three-info {
+    gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
