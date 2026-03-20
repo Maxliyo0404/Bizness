@@ -61,9 +61,53 @@
     }
   }
 }
-@media(max-width:1160px){
-
+@media(max-width:860px){
+  .section_four{
+    .section_four-project{
+        flex-direction: column-reverse;
+        align-items: center;
+        .four-left{
+            max-width: 100%;
+            text-align: center;
+            h2{
+                max-width: 100%;
+            }
+            p{
+                max-width: 100%;
+            }
+        }
+    }
+  }
 }
-@media(max-width:1160px){
+@media(max-width:660px){
+   .section_four{
+    .section_four-project{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 0;
+       
+        .four-left{
+            max-width: 100%;
+            text-align: center;
+            transform: translate(0, -20px);
+            h2{
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 13px;
+                    line-height: 20px;
+                    margin-bottom: 25px;
+                }
+        }
+         .four-right{
+            max-width: 60%;
+            transform: translate(0, -20px);
 
+        }
+    }
+  }
 }

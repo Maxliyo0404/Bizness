@@ -1,0 +1,165 @@
+.section_six{
+   
+   .section_six-news{
+     background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid;border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    box-shadow: 0px 22px 18px 0px #0000000D;
+    border-radius: 34px;
+    padding:50px 0 ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+       h2{
+                    font-weight: 700;
+                    font-size: 42px;
+                    line-height:100%;
+                    margin-bottom: 13px;
+                    color: #FFFFFF;
+         }
+       p{
+                  
+                    color:#FFFFFF;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height:26px;
+                    margin-bottom: 29px;
+                    
+        }
+        form{
+            width: 860px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+            box-shadow: 10px 24px 54px 0px #00000012;
+            border-radius: 70px;
+            padding: 15px 22px;
+            label{
+                input{
+                    font-family: "Rubik", sans-serif;
+                    outline: none;
+                    border: none;
+                    background: none;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                }
+
+            }
+            .six-btn{
+                width: 190px;
+                padding: 18px 0;
+                 font-family: "Rubik", sans-serif;
+                background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+                border-radius: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                gap: 8px;
+                color: #FFFFFF;
+                &:hover{
+                    border: 1px solid #2563EB;
+                    background: none;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+   }
+
+}
+
+@media(max-width:860px){
+  .section_six{
+    .section_six-news{
+        form{
+            max-width: 700px;
+            padding: 12px 15px;
+            .six-btn{
+                max-width: 160px;
+                padding: 16px;
+            }
+        }
+    }
+  }
+}
+@media(max-width:760px){
+    .section_six{
+    .section_six-news{
+        form{
+            max-width: 600px;
+            padding: 10px 15px;
+            .six-btn{
+                max-width: 160px;
+                padding: 12px;
+            }
+        }
+    }
+  }
+}
+@media(max-width:660px){
+  .section_six{
+    .section_six-news{
+        h2{
+                    width: 100%;
+                    font-size: 29px;
+                    line-height: 30px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 30px;
+                }
+        form{
+            max-width: 100%;
+            padding: 8px 15px;
+             label{
+                input{
+                    font-size: 15px;
+                }
+            }
+            .six-btn{
+                max-width: 140px;
+                padding: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+  }
+}
+@media(max-width:460px){
+  .section_six{
+    .section_six-news{
+        h2{
+                    width: 100%;
+                    font-size: 29px;
+                    line-height: 30px;
+                }
+                p{
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 30px;
+                }
+        form{
+            max-width: 100%;
+            padding: 6px 10px;
+           
+            label{
+                input{
+                    font-size: 12px;
+                }
+            }
+            .six-btn{
+                max-width: 120px;
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+    }
+  }
+}
