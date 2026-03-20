@@ -857,4 +857,50 @@ header .header-container .header-list .header-btn:hover {
     padding: 8px;
     font-size: 14px;
   }
+}
+footer .footer-content {
+  padding: 60px 0;
+}
+footer .footer-content .footer-list {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+footer .footer-content .footer-list .footer-item {
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+footer .footer-content .footer-list .footer-item .footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22.55px;
+  line-height: 100%;
+}
+footer .footer-content .footer-list .footer-item .footer-nav:hover {
+  color: #2563EB;
+  cursor: pointer;
+}
+footer .footer-content .footer-list .footer-item .icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+footer .footer-content .footer-list .footer-item .footer-iconse {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-size: 17px;
 }/*# sourceMappingURL=main.css.map */
