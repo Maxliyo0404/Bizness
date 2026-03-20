@@ -506,4 +506,52 @@ header .header-container .header-list .header-btn:hover {
     line-height: 20px;
     margin-bottom: 25px;
   }
+}
+.section_four .section_four-project {
+  padding: 60px 0;
+  display: flex;
+  gap: 90px;
+}
+.section_four .section_four-project .four-left {
+  max-width: 50%;
+  padding-top: 100px;
+}
+.section_four .section_four-project .four-left h2 {
+  max-width: 582px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+.section_four .section_four-project .four-left p {
+  max-width: 579px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.section_four .section_four-project .four-left .three-btn {
+  padding: 8px 18px;
+  border: 1px solid #3A68B8;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  box-shadow: 0 0 5px #000;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  cursor: progress;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.section_four .section_four-project .four-left .three-btn:hover {
+  background: none;
+  border: 1px solid #3A68B8;
+}
+.section_four .section_four-project .four-right {
+  max-width: 50%;
+}
+.section_four .section_four-project .four-right img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
