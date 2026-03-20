@@ -35,7 +35,64 @@ header{
               } 
             }
            }
+           .header-btn{
+                padding: 12px 30px;
+                font-size: 18px;
+                border: 1px solid #3A68B8;
+                background: #3A68B8;
+                box-shadow: 0 0 5px #000;
+                border-radius: 5px;
+                color: #fff;
+                outline: none;
+                cursor: progress;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                  &:hover{
+                   background: none;
+                   border: 1px solid #3A68B8;
+               }
+          }
           } 
 
     }
+}
+@media(max-width:860px){
+  header{
+    .header-container{
+        .header-list{
+            gap: 10px;
+            .header-btn{
+                padding: 10px 20px;
+            }
+        }
+    }
+  }  
+}
+@media(max-width:660px){
+   header{
+    .header-container{
+        .header-list{
+            .header-item{
+                display: none;
+            }
+            .header-btn{
+                padding: 10px 15px;
+            }
+        }
+    }
+  }  
+}
+
+
+
+
+@media(max-width:1160px){
+
+}
+@media(max-width:1160px){
+
+}
+@media(max-width:1160px){
+
 }
