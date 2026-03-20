@@ -7,11 +7,29 @@
   font-family: "DM Sans", sans-serif;
 }
 
+body {
+  background: black;
+}
+
 header .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+}
+header .header-container .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22.55px;
+  line-height: 100%;
+}
+header .header-container .logo:hover {
+  color: #2563EB;
+  cursor: pointer;
 }
 
 .container {
