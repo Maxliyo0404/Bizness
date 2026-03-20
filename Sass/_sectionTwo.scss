@@ -38,8 +38,57 @@
            justify-content: center;
            flex-direction: column;
            .two-rasms{
-            
+             width: 74px;
+             height: 74px;
+             border-radius: 50%;
+             background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 19px;
            }
+           .two-rasm{
+             width: 74px;
+             height: 74px;
+             border-radius: 50%;
+             background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 19px;
+           }
+           .two-rasme{
+             width: 74px;
+             height: 74px;
+             border-radius: 50%;
+             background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 19px;
+           }
+           .two-rasmm{
+             width: 74px;
+             height: 74px;
+             border-radius: 50%;
+             background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 19px;
+           }
+           .two-rasmse{
+             width: 74px;
+             height: 74px;
+             border-radius: 50%;
+             background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 19px;
+           }
+           
+
 
         }
        }
