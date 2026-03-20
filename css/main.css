@@ -290,7 +290,7 @@ header .header-container .header-list .header-btn:hover {
   gap: 30px;
 }
 .section_two .section_two-service .two-list .two-item {
-  padding: 37px 23px;
+  padding: 30px 23px;
   box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.0509803922);
   border: 1px solid;
   border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
@@ -353,7 +353,7 @@ header .header-container .header-list .header-btn:hover {
 }
 .section_two .section_two-service .two-list .two-item h3 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 100%;
   margin-bottom: 17px;
   color: #FFFFFF;
@@ -361,7 +361,7 @@ header .header-container .header-list .header-btn:hover {
 .section_two .section_two-service .two-list .two-item p {
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   margin-bottom: 24px;
 }
@@ -373,4 +373,33 @@ header .header-container .header-list .header-btn:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+
+@media (max-width: 960px) {
+  .section_two .section_two-service .two-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 660px) {
+  .section_two .section_two-service .two-title {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .section_two .section_two-service .two-title h2 {
+    width: 100%;
+    font-size: 29px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .section_two .section_two-service .two-title p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section_two .section_two-service .two-list {
+    grid-template-columns: 1fr;
+  }
+  .section_two .section_two-service .two-list .two-item {
+    padding: 21px;
+  }
 }/*# sourceMappingURL=main.css.map */
