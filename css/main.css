@@ -350,4 +350,27 @@ header .header-container .header-list .header-btn:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 19px;
+}
+.section_two .section_two-service .two-list .two-item h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 17px;
+  color: #FFFFFF;
+}
+.section_two .section_two-service .two-list .two-item p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.section_two .section_two-service .two-list .two-item a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }/*# sourceMappingURL=main.css.map */
